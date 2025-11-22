@@ -1,0 +1,7 @@
+﻿services:
+  net-template:
+    image: net-example-service
+    build:
+      context: .
+      dockerfile: Dockerfile
+
